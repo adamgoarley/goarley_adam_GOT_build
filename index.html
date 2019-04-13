@@ -5,6 +5,7 @@
 <title>DOM Traversal</title>
 <link href="css/meyerReset.css" rel="stylesheet" type="text/css" media="screen">
 <link href="css/GOT_master.css" rel="stylesheet" type="text/css" media="screen">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 </head>
 
 <body>
@@ -18,6 +19,9 @@
     		<img src="images/tully.jpg"/>
     		<img src="images/greyjoy.jpg"/>
     		<img src="images/arryn.jpg"/>
+        <img src="images/tangeryen.png"/>
+        <img src="images/frey.jpg"/>
+        <img src="images/tyrell.jpg"/>
         </div>
     </section>
 
@@ -30,12 +34,17 @@
             <li><div class="sigil-container tully" data-offset="3"></div></li>
             <li><div class="sigil-container greyjoy" data-offset="4"></div></li>
             <li><div class="sigil-container arryn" data-offset="5"></div></li>
+            <li><div class="sigil-container targeryen" data-offset="6"></div></li>
+            <li><div class="sigil-container frey" data-offset="7"></div></li>
+            <li><div class="sigil-container tyrell" data-offset="8"></div></li>
         </ul>
     </nav>
 
-    <h1>clever tagline goes here</h1><!-- replace this with the house name -->
+    <h1 class="house-name">clever tagline goes here</h1><!-- replace this with the house name -->
 
-    <p class="house-info"></p><!-- replace this with house details (github gist) -->
+    <p class="house-info"><!-- replace this with house details (github gist) -->
+          this will be replaced when you click on shield
+    </p>
 </main>  <!--end mainContainer-->
 
 <!-- div for highlighted content -->
@@ -46,6 +55,6 @@
     <video src="House-Stark.mp4" controls muted></video>
 </section>
 
-<script src="js/main.js"></script>
+<script src="js/GOT_master.js"></script>
 </body>
 </html>
