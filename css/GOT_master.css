@@ -132,9 +132,11 @@ video {
 
 .house-info
 {
-  color: white;
-  margin-top: 20px;
-  text-align: center;
+    color: white;
+  	font-size: 1.5rem;
+  	margin: 20px auto 0 auto;
+  	width: 70%;
+  	text-align: center;
 }
 
 .house-name
